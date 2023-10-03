@@ -1,3 +1,9 @@
+gcc-13-cross-ports (13deepin1) unstable; urgency=medium
+
+  * Build using binutils 2.38-deepin.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Wed, 04 Oct 2023 02:44:22 +0800
+
 gcc-13-cross-ports (13) unstable; urgency=medium
 
   * Fix powerpc build on arm64.
