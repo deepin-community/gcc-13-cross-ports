@@ -36,8 +36,8 @@ CROSS_EXT       := cross$(DEB_VER_ACT)
 VER_GCC        := $(shell dpkg-parsechangelog -l/usr/src/gcc-${GCC_VER}/debian/changelog | awk '/^Version:/ {print $$2}' | sed 's/-[^-]*$$//')
 GCC_DIR        := /usr/src/gcc-${GCC_VER}
 GCC_TARBALL := $(wildcard $(GCC_DIR)/gcc-*.xz)
-VER_BINUTILS   := 2.41-4
-MIN_VER_BINUTILS   := 2.41-4
+VER_BINUTILS   := 2.38-deepin
+MIN_VER_BINUTILS   := 2.38-deepin
 VER_ISL      := 0.26-3~
 MIN_VER_GLIBC   := 2.37
 
