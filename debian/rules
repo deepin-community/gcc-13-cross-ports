@@ -98,14 +98,14 @@ ifeq (,$(CROSS_ARCHS))
     GCC_PORTS_BUILD=
   else ifeq ($(DEB_NAME_ACT),gcc-13-cross-ports)
     ifneq (,$(filter $(HOST_ARCH),amd64 i386 x32))
-      CROSS_ARCHS  ?= alpha hppa m68k ppc64 sh4 sparc64 \
+      CROSS_ARCHS  ?= hppa m68k ppc64 sh4 sparc64 \
 		$(if $(filter $(vendor), Ubuntu),, powerpc) \
 		$(if $(filter $(HOST_ARCH), amd64 i386), x32)
     else ifeq ($(HOST_ARCH),arm64)
-      CROSS_ARCHS ?= alpha hppa m68k sh4 sparc64 x32 \
+      CROSS_ARCHS ?= hppa m68k sh4 sparc64 x32 \
 		$(if $(filter $(vendor), Ubuntu),, powerpc)
     else ifeq ($(HOST_ARCH),ppc64el)
-      CROSS_ARCHS ?= alpha hppa m68k sh4 sparc64 x32 \
+      CROSS_ARCHS ?= hppa m68k sh4 sparc64 x32 \
 		$(if $(filter $(vendor), Ubuntu),, powerpc)
     else
       CROSS_ARCHS =
