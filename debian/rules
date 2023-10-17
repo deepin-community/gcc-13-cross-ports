@@ -58,14 +58,14 @@ HOST_ARCHS_armel = amd64 i386 x32 arm64 ppc64el
 HOST_ARCHS_arm64 = amd64 i386 x32 ppc64el
 HOST_ARCHS_hppa = amd64 i386 ppc64el x32
 HOST_ARCHS_i386 = amd64 arm64 ppc64el x32
-HOST_ARCHS_m68k = amd64 arm64 i386 ppc64el x32
+HOST_ARCHS_m68k = amd64 i386 ppc64el x32
 HOST_ARCHS_powerpc = amd64 arm64 i386 x32 ppc64el
 HOST_ARCHS_ppc64 = amd64 i386 ppc64el x32
 HOST_ARCHS_ppc64el = amd64 i386 x32 ppc64 arm64
 HOST_ARCHS_riscv64 = amd64 i386 x32 arm64 ppc64el
 HOST_ARCHS_s390x = amd64 i386 x32 arm64 ppc64el
-HOST_ARCHS_sh4 = amd64 arm64 i386 ppc64el x32
-HOST_ARCHS_sparc64 = amd64 arm64 i386 ppc64el x32
+HOST_ARCHS_sh4 = amd64 i386 ppc64el x32
+HOST_ARCHS_sparc64 = amd64 i386 ppc64el x32
 HOST_ARCHS_x32 = amd64 arm64 i386 ppc64el
 
 all_archs_mips = mips mipsel mipsn32 mipsn32el mips64 mips64el mipsr6 mipsr6el mipsn32r6 mipsn32r6el mips64r6 mips64r6el
